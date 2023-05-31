@@ -2220,9 +2220,13 @@ section {
 # Footer
 --------------------------------------------------------------*/
 .footer {
+  position: fixed;
   background: #f6f9ff;
   padding: 15px 0 15px 0;
   font-size: 14px;
+  clear: both;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer .footer-newsletter {

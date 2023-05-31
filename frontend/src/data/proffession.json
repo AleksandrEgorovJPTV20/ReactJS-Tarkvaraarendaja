@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "proffession": "Programmer",
+        "description": "The main job of a software developer is to write the source code of the software according to the agreed design. He participates in the development of the software solution, is responsible for the technical use of the written code and offers various solutions considering the system as a whole.",
+        "image": "assets/img/about.jpg",
+        "language": "Language of study: Estonian 60% / Russian 40%",
+        "study-form": "stationary school-based study (daytime)",
+        "location": "Place of study: Narva, Jõhvi",
+        "study-period": "Study period: 4 years",
+        "study-level": "Level of study: Level 4 (initial study of vocational secondary education)",
+        "condition": "Conditions for starting studies: basic education",
+        "admission": "Admission requirements: Entrance test"
+    }
+]

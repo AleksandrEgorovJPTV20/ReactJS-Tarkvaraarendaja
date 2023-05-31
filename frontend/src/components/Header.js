@@ -5,10 +5,10 @@ import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 
 export default function Header() {
     return (
-        <header id="header" className="header fixed-top header-scrolled">
+        <header id="header" className="header fixed-top header-scrolled mb-5">
             <Navbar expand="md">
                 <Container>
-                    <Navbar.Brand href="#hero" className="logo d-flex align-items-center">
+                    <Navbar.Brand href="/#hero" className="logo d-flex align-items-center">
                         <img src="assets/img/logo2.png" alt=""/>
                         <img src="assets/img/logo.png" alt=""/>
                         <span>PROFAdvert</span>
