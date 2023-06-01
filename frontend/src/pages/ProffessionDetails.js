@@ -11,7 +11,7 @@ export default function ProffessionDetails() {
             {Proffession.map((data) => (
                 <>
                     <div className="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                            <img src={data.image} className="img-fluid" alt="" />
+                            <img src={data.image} style={{width: "100%", height: "100%"}} className="img-fluid" alt="" />
                     </div>
                     <div className="col-lg-6 d-flex flex-column justify-content-center" eventKey={data.id} key={data.id} data-aos="fade-up" data-aos-delay="200">
                         <div className="content">

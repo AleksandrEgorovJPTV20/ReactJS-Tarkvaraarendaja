@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "image": "https://images.ctfassets.net/pdf29us7flmy/2ZtlOujWNf4ztl5wbRnTpC/4a394c414c6a2e3f68749802e5e4d042/GettyImages-689291632_optimized.jpg?w=720&q=100&fm=jpg",
+        "description": "Programmer 1"
+    },
+    {
+        "id": 2,
+        "image": "https://www.coursesonline.co.uk/wp-content/uploads/Subject-Programming.jpeg",
+        "description": "Programmer 2"
+    },
+    {
+        "id": 3,
+        "image": "https://careerkarma.com/blog/wp-content/uploads/2019/11/danial-ricaros-FCHlYvR5gJI-unsplash.jpg",
+        "description": "Programmer 3"
+    },
+    {
+        "id": 4,
+        "image": "https://media.istockphoto.com/id/1147195672/photo/focused-developer-coding-on-computer-monitors-working-late-in-office.jpg?s=612x612&w=0&k=20&c=R6oPQ_vkXAxCzpi4UFsN28pdU0C0LJL8JLAX-HwO90Q=",
+        "description": "Programmer 4"
+    },
+    {
+        "id": 5,
+        "image": "https://6448316.fs1.hubspotusercontent-na1.net/hubfs/6448316/what-computer-programming-jobs-offer-remote-work-jpg.jpeg",
+        "description": "Programmer 5"
+    },
+    {
+        "id": 6,
+        "image": "https://www.roberthalf.com/sites/default/files/2022-05/How-to-Become-a-Programmer-Analyst-Blog-RH-05-18-2022.jpg",
+        "description": "Programmer 6"
+    }
+]

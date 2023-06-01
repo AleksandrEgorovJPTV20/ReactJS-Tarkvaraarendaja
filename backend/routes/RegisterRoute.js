@@ -6,7 +6,7 @@ import {
     createDepartment,
     updateDepartment,
     deleteDepartment,
-} from '../controllers/departmentController.js';
+} from '../controllers/profefessionController.js';
 
 const departmentrouter = express.Router();
 

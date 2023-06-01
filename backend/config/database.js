@@ -1,6 +1,6 @@
 import { Sequelize } from 'sequelize';
 
-const db = new Sequelize('react_school', 'root', '', {
+const db = new Sequelize('programmer', 'root', '', {
     host: 'localhost',
     dialect: 'mysql',
 });

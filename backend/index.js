@@ -1,7 +1,6 @@
 import express from 'express';
 import db from './config/database.js';
-import departmentRoute from './routes/departmentRoute.js';
-import professionRoute from './routes/professionRoute.js';
+import RegisterRoute from './routes/RegisterRoute.js';
 
 import cors from 'cors';
 import dotenv from 'dotenv';
@@ -23,8 +22,7 @@ app.use(cors({ credentials: true, origin: 'http://localhost:3000' }));
 app.use(cookieParser());
 app.use(express.json());
 
-app.use('/department', departmentRoute);
-app.use('/profession', professionRoute);
+app.use('/registerroute', RegisterRoute);
 
 app.use('/users', userRoute);
 

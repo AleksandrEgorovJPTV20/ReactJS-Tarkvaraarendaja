@@ -1,0 +1,17 @@
+[
+    {
+        "id": 4,
+        "question": "Difference between a programmer and a software developer?",
+        "answer": "A programmer focuses on writing computer directions known as code and then tests it for errors, while a software developer uses code to plan how to guide the computers to do what the user needs."
+    },
+    {
+        "id": 5,
+        "question": "How much do programmers earn?",
+        "answer": "The annual median salary for computer programmers in the US is $74,534"
+    },
+    {
+        "id": 6,
+        "question": "Can anyone become a programmer?",
+        "answer": "You can become a computer programmer without a degree, but you'll need some self-discipline. Research what skills successful programmers use in their day-to-day jobs and pursue that knowledge independently. Here are some ideas to consider: Take online or in-person classes."
+    }
+]

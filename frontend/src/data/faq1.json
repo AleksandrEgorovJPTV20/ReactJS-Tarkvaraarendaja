@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "question": "What is programming?",
+        "answer": "Programming refers to a technological process for telling a computer which tasks to perform in order to solve problems. You can think of programming as a collaboration between humans and computers, in which humans create instructions for a computer to follow (code) in a language computers can understand. "
+    },
+    {
+        "id": 2,
+        "question": "What is programming language?",
+        "answer": "A programming language is a computer language programmers use to develop software programs, scripts, or other sets of instructions for computers to execute."
+    },
+    {
+        "id": 3,
+        "question": "What are the programming languages?",
+        "answer": "There's a lot of them, but most popular ones are javascript, python, java, C/C++, C#, PHP, Kotlin, Swift"
+    }
+]

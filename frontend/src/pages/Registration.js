@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { Button, Form } from 'react-bootstrap';
 
-export default function ProffessionDetails() {
+export default function Registration() {
     return (
         <section id="about" className="about" style={{marginTop: "100px"}}>
             <div className="container" data-aos="fade-up">
@@ -13,16 +13,16 @@ export default function ProffessionDetails() {
                                     <h3>Programmer</h3>
                                     <h2>Registration</h2>
                                     <Form.Group className="mb-3">
-                                        <Form.Control type ="text" placeholder="Enter firstname" />
+                                        <Form.Control type ="firstname" placeholder="Enter firstname" />
                                     </Form.Group>
                                     <Form.Group className="mb-3">
-                                        <Form.Control type ="email" placeholder="Enter lastname"/>
+                                        <Form.Control type ="lastname" placeholder="Enter lastname"/>
                                     </Form.Group>
                                     <Form.Group className="mb-3">
-                                        <Form.Control type ="password" placeholder="Enter phone"/>
+                                        <Form.Control type ="phone" placeholder="Enter phone"/>
                                     </Form.Group>
                                     <Form.Group className="mb-3">
-                                        <Form.Control type ="password" placeholder="Enter email"/>
+                                        <Form.Control type ="email" placeholder="Enter email"/>
                                     </Form.Group>
                                     <div className="text-center text-lg-start" style={{display: "flex", justifyContent: "center"}}>
                                         <Button variant="primary" type="submit" className="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">Register</Button>
