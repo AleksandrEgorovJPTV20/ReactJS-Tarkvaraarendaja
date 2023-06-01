@@ -1,60 +1,60 @@
-import Department from "../models/department.js";
+import Register from "../models/register.js";
 //read all
-export const getAllDepartments = async (req, res) => {
+export const getAllRegisters = async (req, res) => {
     try {
-        const departments = await Department.findAll();
-        res.json(departments);
+        const registers = await Register.findAll();
+        res.json(registers);
     } catch (error) {
         res.json({ message: error.message });
     }
 };
 //read by id
-export const getDepartmentById = async (req, res) => {
+export const getRegisterById = async (req, res) => {
     try {
-        const department = await Department.findAll({
+        const register = await Register.findAll({
             where: { id: req.params.id },
         });
-        res.json(department[0]);
+        res.json(register[0]);
     }   catch (error){
         res.json({ message: error.message });
     }
 };
 //create
-export const createDepartment = async (req,res) => {
+export const createRegister = async (req,res) => {
     try {
-        await Department.create(req.body);
+        await Register.create(req.body);
         res.json({
-            message: 'Department Created',
+            message: 'Register Created',
         });
     } catch (error) {
         res.json({ message: error.message });
     }
 };
 //update
-export const updateDepartment = async (req, res) => {
+export const updateRegister = async (req, res) => {
     try {
-        await Department.update(req.body, {
+        await Register.update(req.body, {
             where: {
                 id: req.params.id,
             },
         });
         res.json({
-            message: 'Department Updated',
+            message: 'Register Updated',
         });
     }   catch (error) {
         res.json({ message: error.message });
     }
 };
 //delete
-export const deleteDepartment = async (req, res) => {
+export const deleteRegister = async (req, res) => {
     try {
-        await Department.destroy({
+        await Register.destroy({
             where: {
                 id: req.params.id,
             },
         });
         res.json({
-            message: 'Department Deleted',
+            message: 'Register Deleted',
         });
     } catch (error) {
         res.json({ message: error.message });

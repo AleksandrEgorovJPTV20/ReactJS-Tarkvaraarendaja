@@ -1,19 +1,19 @@
 import express from 'express';
 
 import {
-    getAllDepartments,
-    getDepartmentById,
-    createDepartment,
-    updateDepartment,
-    deleteDepartment,
-} from '../controllers/profefessionController.js';
+    getAllRegisters,
+    getRegisterById,
+    createRegister,
+    updateRegister,
+    deleteRegister,
+} from '../controllers/registerController.js';
 
-const departmentrouter = express.Router();
+const registerrouter = express.Router();
 
-departmentrouter.get('/', getAllDepartments);
-departmentrouter.get('/:id', getDepartmentById);
-departmentrouter.post('/', createDepartment);
-departmentrouter.patch('/:id', updateDepartment);
-departmentrouter.delete('/:id', deleteDepartment);
+registerrouter.get('/', getAllRegisters);
+registerrouter.get('/:id', getRegisterById);
+registerrouter.post('/', createRegister);
+registerrouter.patch('/:id', updateRegister);
+registerrouter.delete('/:id', deleteRegister);
 
-export default departmentrouter;
+export default registerrouter;

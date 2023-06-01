@@ -1,23 +1,26 @@
 import db from '../config/database.js';
 import { DataTypes, Model } from 'sequelize';
 
-class Department extends Model {}
-Department.init(
+class Register extends Model {}
+Register.init(
     {
         id: {
             type: DataTypes.INTEGER,
             autoIncrement: true,
             primaryKey: true,
         },
-        name: { type: DataTypes.STRING },
+        firstname: { type: DataTypes.STRING },
+        lastname: { type: DataTypes.STRING },
+        phone: { type: DataTypes.INTEGER },
+        email: { type: DataTypes.STRING },
     },
     {
         sequelize: db,
-        tableName: 'departments',
+        tableName: 'registers',
         freezeTableName: true,
-        modelName: "Department",
+        modelName: "register",
         timestamp: true,
     },
 );
 
-export default Department;
+export default Register;
