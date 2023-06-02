@@ -49,8 +49,8 @@ export default function Header() {
         <header id="header" className="header fixed-top header-scrolled mb-5">
             <Navbar expand="md">
                 <Container>
-                    <Navbar.Brand href="/" className="logo d-flex align-items-center">
-                        <img src="assets/img/logo2.png" alt=""/>
+                    <Navbar.Brand className="logo d-flex align-items-center">
+                        <img title="IVKHK" src="assets/img/logo2.png" alt="IVKHK"/>
                         <img src="assets/img/logo.png" alt=""/>
                         <span>PROFAdvert</span>
                     </Navbar.Brand>
@@ -80,7 +80,7 @@ export default function Header() {
                             <Nav.Link href="/#gallery" className="nav-link scrollto">Gallery</Nav.Link>   
                             <Nav.Link href="/#faq" className="nav-link scrollto">FAQ</Nav.Link>   
                             <Nav.Link href="/#contact" className="nav-link scrollto">Contacts</Nav.Link>   
-                            <Nav.Link href="/#about" className="getstarted scrollto">Get Started</Nav.Link>                                 
+                            <Nav.Link href="/register" className="getstarted scrollto">Register now</Nav.Link>                                 
                         </Nav>
                     </NavbarCollapse>
                 </Container>

@@ -25,7 +25,7 @@ export default function UsersList() {
                                     <tr>
                                         <th>No</th>
                                         <th>Firstname</th>
-                                        <th>LastName</th>
+                                        <th>Lastname</th>
                                         <th>Phone</th>
                                         <th>Email</th>
                                     </tr>

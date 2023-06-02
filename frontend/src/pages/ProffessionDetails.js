@@ -1,5 +1,5 @@
 import React from 'react';
-import Proffession from '../data/proffession.json';
+import Profession from '../data/profession.json';
 
 export default function ProffessionDetails() {
     return (
@@ -8,7 +8,7 @@ export default function ProffessionDetails() {
         <div className="container" data-aos="fade-up" defaultActiveKey="1">
             <div className="row gx-0">
 
-            {Proffession.map((data) => (
+            {Profession.map((data) => (
                 <>
                     <div className="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
                             <img src={data.image} style={{width: "100%", height: "100%"}} className="img-fluid" alt="" />

@@ -1,5 +1,5 @@
 import React from 'react';
-import Proffession from '../data/proffession.json';
+import Profession from '../data/profession.json';
 
 export default function About() {
     return (
@@ -8,7 +8,7 @@ export default function About() {
         <div className="container" data-aos="fade-up">
             <div className="row gx-0" defaultActiveKey="1">
 
-            {Proffession.map((data) => (
+            {Profession.map((data) => (
                 <>
                     <div className="col-lg-6 d-flex flex-column justify-content-center" eventKey={data.id} key={data.id} data-aos="fade-up" data-aos-delay="200">
                         <div className="content">

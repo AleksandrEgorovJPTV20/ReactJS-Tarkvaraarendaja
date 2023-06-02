@@ -1,5 +1,5 @@
 import React from 'react';
-import proffession from '../data/proffession.json';
+import Profession from '../data/profession.json';
 
 export default function Contacts() {
     return (
@@ -15,7 +15,7 @@ export default function Contacts() {
         <div className="row gy-4">
 
           <div className="col-lg-6">
-            {proffession.map((data) => (
+            {Profession.map((data) => (
               <div className="row gy-4">
                 <div className="col-md-6">
                   <div className="info-box">
