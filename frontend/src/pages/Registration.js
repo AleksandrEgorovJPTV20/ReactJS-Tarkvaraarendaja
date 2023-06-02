@@ -29,7 +29,7 @@ export default function Registration() {
         }
     };
     return (
-        <section id="about" className="about" style={{marginTop: "100px"}}>
+        <section id="register" className="about" style={{marginTop: "200px"}}>
             <div className="container" data-aos="fade-up">
                 <div className="row gx-0" style={{display: "flex", justifyContent: "center"}}>
                         <div className="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">

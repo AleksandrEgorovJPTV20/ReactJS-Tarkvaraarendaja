@@ -3,7 +3,7 @@ import Proffession from '../data/proffession.json';
 
 export default function ProffessionDetails() {
     return (
-        <section id="about" className="about" style={{marginTop: "60px"}}>
+        <section id="about" className="about" style={{marginTop: "150px"}}>
 
         <div className="container" data-aos="fade-up" defaultActiveKey="1">
             <div className="row gx-0">

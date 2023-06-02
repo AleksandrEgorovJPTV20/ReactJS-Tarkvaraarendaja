@@ -30,6 +30,7 @@ export default function Header() {
     };
     if(role === 'admin') {
         navbar_admin = [
+            { name: 'Registered List', href: '/registeredUsers'},
         ];
         navbar_user = [
             { name: 'Logout', href: '/logout'},
