@@ -77,7 +77,8 @@ export default function Header() {
                         <Nav>
                             <Nav.Link href="/#hero" className="nav-link scrollto">Home</Nav.Link>
                             <Nav.Link href="/#about" className="nav-link scrollto">About</Nav.Link>
-                            <Nav.Link href="/#gallery" className="nav-link scrollto">Gallery</Nav.Link>   
+                            <Nav.Link href="/#gallery" className="nav-link scrollto">Gallery</Nav.Link>
+                            <Nav.Link href="/#team" className="nav-link scrollto">Team</Nav.Link>      
                             <Nav.Link href="/#faq" className="nav-link scrollto">FAQ</Nav.Link>   
                             <Nav.Link href="/#contact" className="nav-link scrollto">Contacts</Nav.Link>   
                             <Nav.Link href="/register" className="getstarted scrollto">Register now</Nav.Link>                                 

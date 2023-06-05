@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "image": "assets/img/team/team-2.jpg",
+        "name": "Sarah Jhonson",
+        "role": "Tester",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in ultricies nisl. In id tellus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. "
+    },
+    {
+        "id": 2,
+        "image": "assets/img/team/team-3.jpg",
+        "name": "Walter White",
+        "role": "Fullstack Developer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in ultricies nisl. In id tellus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. "
+    },
+    {
+        "id": 3,
+        "image": "assets/img/team/team-4.jpg",
+        "name": "Amanda Jepson",
+        "role": "Designer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla in ultricies nisl. In id tellus quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. "
+    }
+]

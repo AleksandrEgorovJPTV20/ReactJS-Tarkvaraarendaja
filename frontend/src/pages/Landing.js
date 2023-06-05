@@ -4,6 +4,7 @@ import About from '../components/About';
 import Gallery from '../components/Gallery';
 import FAQ from '../components/FAQ';
 import Contacts from '../components/Contacts';
+import Team from '../components/Team'
 
 export default function Landing() {
     const HomeRef = useRef();
@@ -11,6 +12,7 @@ export default function Landing() {
     const GalleryRef = useRef();
     const FaqRef = useRef();
     const ContactsRef = useRef();
+    const TeamRef = useRef();
     return (
         <>
             <section ref={HomeRef}>
@@ -21,6 +23,9 @@ export default function Landing() {
             </section>
             <section ref={GalleryRef}>
                 <Gallery />
+            </section>
+            <section ref={TeamRef}>
+                <Team />
             </section>
             <section ref={FaqRef}>
                 <FAQ />

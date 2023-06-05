@@ -9,6 +9,7 @@ import Registration from '../pages/Registration';
 import Login from '../pages/Login';
 import Logout from './Logout';
 import RegisteredUsers from '../pages/RegisterList';
+import Error from '../pages/Error';
 
 export default function Content() {
     const [role, setRole] = React.useState('');
@@ -36,16 +37,24 @@ export default function Content() {
             { href: '/registeredUsers', name: <RegisteredUsers />},
         ];
         navbar_user = [
-            { href: '/logout', name: <Logout/>},
+            { href: '/logout', name: <Logout />},
         ];
     }else if (role === 'user') {
-        navbar_admin = [];
+        navbar_admin = [
+            { href: '/registeredUsers', name: <Error />},
+        ];
         navbar_user = [
-            { href: '/logout', name: <Logout/>},
+            { href: '/logout', name: <Logout />},
         ];
     } else {
+        navbar_admin = [
+            { href: '/registeredUsers', name: <Error />},
+        ];
+        navbar_user = [
+            { href: '/logout', name: <Error />},
+        ];
         navbar_guest = [
-            { href: '/login', name: <Login/> },
+            { href: '/login', name: <Login /> },
         ];
     }
     return (

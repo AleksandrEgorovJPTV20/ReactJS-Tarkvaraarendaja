@@ -14,8 +14,8 @@ export default function UsersList() {
         getRegisteredUsers();
     }, []);
     return (
-        <Container style={{marginTop: "300px"}}>
-            <h2 className="text-center mt-3">Registered Users  List</h2>
+        <Container style={{marginTop: "15%"}}>
+            <h2 className="text-center mt-3">Registered Users List</h2>
             <Row className="d-flex justify-content-center align-items-center">
                 <Col md={8} lg={8} xs={12}>
                     <Card className="shadow">
@@ -42,7 +42,7 @@ export default function UsersList() {
                                 ))}
                                 </tbody>
                             </table>
-                            <p style={{textAlign: 'right'}}>Count of users {registeredUser.length}</p>
+                            <p style={{textAlign: 'right'}}>Registered users - {registeredUser.length}</p>
                         </Card.Body>
                     </Card>
                 </Col>
