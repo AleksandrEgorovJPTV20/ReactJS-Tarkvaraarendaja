@@ -9,7 +9,7 @@ export default class Footer extends Component {
                     className="text-center"
                     fluid
                 >
-                    <p>&copy; Copyright PROFAdvert. All Rights Reserved</p>
+                    <p>2023 &copy; Copyright, Made by PROFAdvert. All Rights Reserved.</p>
                 </Container>
             </footer>
         )

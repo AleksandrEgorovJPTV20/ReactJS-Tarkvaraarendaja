@@ -20,8 +20,8 @@ export default function Registration() {
                 phone: phone,
                 email: email,
             });
-            navigate('/register');
-            setMsg("Успешно зарагестрировались на проффессию");
+            navigate('/');
+            setMsg("Successfully registered");
         } catch (error) {
             if(error.response) {
                 setMsg(error.response.data.msg);
