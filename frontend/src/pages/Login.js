@@ -25,7 +25,7 @@ export default function Login() {
         }
     };
     return (
-        <section id="login" className="about" style={{marginTop: "15%"}}>
+        <section id="login" className="about" style={{marginTop: "5%"}}>
             <div className="container" data-aos="fade-up">
                 <div className="row gx-0" style={{display: "flex", justifyContent: "center"}}>
                         <div className="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">

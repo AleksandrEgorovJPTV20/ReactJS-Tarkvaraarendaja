@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import { Col, Row, Container, Card } from 'react-bootstrap';
+import { Col, Row, Container, Card, Button } from 'react-bootstrap';
 
 export default function UsersList() {
     const [registeredUser, setRegisteredUser] = React.useState([]);
@@ -9,7 +9,12 @@ export default function UsersList() {
         const response = await axios.get(`http://localhost:5000/registers`);
         setRegisteredUser(response.data);
     };
-
+    const deleteRegister = async (id) => {
+        if (window.confirm('Delete record #' + id + ' ?')) {
+            await axios.delete(`http://localhost:5000/registers/${id}`);
+            getRegisteredUsers();
+        }
+    };
     React.useEffect(() => {
         getRegisteredUsers();
     }, []);
@@ -28,6 +33,7 @@ export default function UsersList() {
                                         <th>Lastname</th>
                                         <th>Phone</th>
                                         <th>Email</th>
+                                        <th>Actions</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -38,6 +44,10 @@ export default function UsersList() {
                                         <td>{user.lastname}</td>  
                                         <td>{user.phone}</td>
                                         <td>{user.email}</td>
+                                        <td><Button onClick={() => deleteRegister(user.id)} variant="danger">
+                                            Delete
+                                            </Button>
+                                        </td>
                                     </tr>
                                 ))}
                                 </tbody>
